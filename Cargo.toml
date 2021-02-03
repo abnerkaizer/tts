@@ -8,8 +8,6 @@ edition = "2018"
 
 [dependencies]
 clap = "3.0.0-beta.2"
-threadpool = "1.8.1"
-num_cpus = "1.13.0"
 
 [profile.dev]
 opt-level = 0

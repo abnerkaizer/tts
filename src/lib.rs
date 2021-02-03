@@ -1,5 +1,5 @@
 extern crate clap;
-use clap::{App};
+use clap::App;
 
 mod udpsocket;
 
