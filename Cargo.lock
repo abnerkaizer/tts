@@ -102,16 +102,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1cca32fa0182e8c0989459524dc356b8f2b5c10f1b9eb521b7d182c03cf8c5ff"
 
 [[package]]
-name = "num_cpus"
-version = "1.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05499f3756671c15885fee9034446956fff3f243d6077b91e5767df161f766b3"
-dependencies = [
- "hermit-abi",
- "libc",
-]
-
-[[package]]
 name = "os_str_bytes"
 version = "2.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -195,21 +185,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "threadpool"
-version = "1.8.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d050e60b33d41c19108b32cea32164033a9013fe3b46cbd4457559bfbf77afaa"
-dependencies = [
- "num_cpus",
-]
-
-[[package]]
 name = "tts"
 version = "0.1.2"
 dependencies = [
  "clap",
- "num_cpus",
- "threadpool",
 ]
 
 [[package]]
